@@ -13,7 +13,7 @@ public class Login_page {
 
     @BeforeMethod
     public void beforeMethod() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\INTEL\\eclipse-workspace-program\\javaprogram\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\INTEL\\eclipse-workspace-program\\com.weblink\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.wlspl.com/");
         driver.manage().window().maximize();

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngapp.com.weblink.Login_page">
+      <class name="testngapp.com.weblink.Effort_testng">
         <methods>
-          <include name="afterMethod"/>
-          <include name="CheckTaskDeatils"/>
-          <include name="beforeMethod"/>
+          <include name="navigateToAddProjects"/>
+          <include name="teardown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testngapp.com.weblink.Login_page -->
+      </class> <!-- testngapp.com.weblink.Effort_testng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,7 +11,7 @@ public class Login_pageidpass {
 
     @BeforeMethod
     public void beforeMethod() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\INTEL\\eclipse-workspace-program\\javaprogram\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\INTEL\\eclipse-workspace-program\\com.weblink\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.weblinkservices.net/career/");
         driver.manage().window().maximize();
